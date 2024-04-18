@@ -51,7 +51,6 @@ class Television:
             if self.__volume > Television.MIN_VOLUME:
                 self.__volume -= 1
 
-
     def __str__(self) -> str:
         """Return a string representation of the television state."""
         power_status: str = "True" if self.__status else "False"
